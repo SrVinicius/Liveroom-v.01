@@ -7,7 +7,6 @@ body{
     font-size: 1em;
     color: #ffffff;
     margin: 0;
-    
     justify-content: center;
     height: 100vh;
 
@@ -113,5 +112,12 @@ main{
 
 #fotofoto{
     background-color: #003061;
-    max-width: 50px;
+}
+
+#logo{
+    max-width: 200px;
+    max-height: 50px;
+    background-color: #003061;
+    float: left;
+    margin-left: 40px;
 }
