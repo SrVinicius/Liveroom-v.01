@@ -1,5 +1,5 @@
 *{
-    background-color: #5D646B;
+    background-color: #1E1E1E;
 }
 
 body{
@@ -13,14 +13,14 @@ body{
 }
 .textsidebar {
     list-style-type: none;
-    background-color: #003061;
+    background-color: #010B41;
   }
 
 header {
     margin: 0; 
     max-height: 50px;
     height: 100%;
-    background-color: #003061;
+    background-color: #010B41;
 }
 #logo{
     padding: 0;
@@ -32,13 +32,13 @@ header {
     display: flex;
     border-radius: 9999px;
     box-sizing: inherit;
-    background-color: #003061;
+    background-color: #010B41;
 }
 
 #sidebar{
     float: left;
     height: 100%;
-    background-color: #003061;
+    background-color: #010B41;
     width: 10%;
 }
 
@@ -111,13 +111,13 @@ main{
 }
 
 #fotofoto{
-    background-color: #003061;
+    background-color: #010B41;
 }
 
 #logo{
     max-width: 200px;
     max-height: 50px;
-    background-color: #003061;
+    background-color: #010B41;
     float: left;
     margin-left: 40px;
 }
