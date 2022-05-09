@@ -74,7 +74,7 @@ ul{
     text-shadow:none;
 }
 
-#buttonindex {
+#buttonindex, #buttonindex2 {
     background: none;
 	color: inherit;
 	border: none;
