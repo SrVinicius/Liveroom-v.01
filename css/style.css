@@ -141,3 +141,32 @@ main{
     float: left;
     margin-left: 40px;
 }
+.designPerfil{
+
+}
+
+#conteudoPerfil{
+    float:left;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+#dadosCadastro{
+    line-height: 2em;
+}
+#perfilfoto{
+    margin: 10px;
+    width: 110px;
+    height: 100px;
+
+}
+.historico{
+    margin-top: 13%;
+}
+#botaoEditar{
+    background-color: #010b41;
+    border-color: #ebebeb;
+    color: #ebebeb;
+    
+}

@@ -8,6 +8,47 @@
     <title>perfil</title>
 </head> 
 <body>
-    <h1>teste</h1>
+    <header id="cabecalho">
+        <div id="divlogo">
+            <img src="img/LiveRoom2.png" id="logo"> 
+        </div>
+        <div id="perfilphoto">
+            <a href= registro.html>
+                <img src="img/iconperfil.png" id="fotofoto">
+            </a>
+        </div>
+    </header>
+    <div id="sidebar">
+        <ul>
+            <li class="textsidebar"> <button a href="index.html" id="buttonindex"  > Home </button> </li>
+            <li class="textsidebar"> <button id="buttonindex2" onclick="myFunction()"> Suporte </button> </li>
+        </ul>
+    </div>
+    <section class="designPerfil">
+        <div id="perfilstats">
+           <a>
+            <img src="img/fotoperfil.png" alt="Foto do Perfil" id="perfilfoto" >
+           </a>
+
+        </div>
+        <div id="conteudoPerfil">
+            <ul id="dadosCadastro">
+                <li><a>Nome</a></li>
+                <li><a>Senha</a></li>
+                <li><a>Email</a></li>
+            </ul>
+
+        </div>
+
+        <button id="botaoEditar" type="submit" name="editar">Editar</button>
+        
+        <div class="historico">
+            <h2>Recentes</h2>
+            <iframe width="550" height="280" src="https://www.youtube.com/embed/TCooHOswSu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        
+        
+    </section>
 </body>
 </html>
