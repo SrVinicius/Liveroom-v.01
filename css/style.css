@@ -18,7 +18,7 @@ body{
 
 header {
     margin: 0; 
-    max-height: 50px;
+    max-height: 70px;
     height: 100%;
     background-color: #010B41;
 }
@@ -26,19 +26,24 @@ header {
 #logo{
     padding: 0;
     margin: 0;
+    margin-top: 10px;
     width: 200px;
     object-fit: cover;
     
 }
 #perfilphoto{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
     float: right;
     display: flex;
-    border-radius: 9999px;
     box-sizing: inherit;
     background-color: #010B41;
 }
 
-#sidebar{
+aside{
     float: left;
     height: 100%;
     background-color: #010B41;
